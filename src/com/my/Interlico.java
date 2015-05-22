@@ -1,6 +1,7 @@
 package com.my;
 
-public interface Interface {
+public interface Interlico {
+
 
    public void count();
 

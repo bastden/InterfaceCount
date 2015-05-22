@@ -1,6 +1,6 @@
 package com.my;
 
-public class Addition implements Interface {
+public class Addition implements Interlico {
 
 
     @Override
@@ -10,9 +10,9 @@ public class Addition implements Interface {
         int res = a + b;
 
         System.out.println("Addition = " + res);
-
     }
 
 }
+
 
 

@@ -4,10 +4,11 @@ public class MainResult {
 
     public static void main(String[] args) {
 
-        Interface intr = new Addition();
+        Interlico intr = new Addition();
         intr.count();
 
         System.out.println();
+
 
         intr = new Division();
         intr.count();
