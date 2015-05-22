@@ -10,8 +10,6 @@ public class Division implements Interlico {
         double d = 2;
         double res2 = c / 2;
 
-
-
         System.out.println("Division = " + res2);
     }
 

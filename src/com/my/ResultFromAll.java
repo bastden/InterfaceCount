@@ -1,6 +1,4 @@
 package com.my;
-import com.my.Addition;
-import com.my.Division;
 
 public class ResultFromAll implements Interlico{
 
