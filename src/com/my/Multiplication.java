@@ -5,8 +5,8 @@ public class Multiplication implements Interlico {
 
     @Override
     public void count() {
-        long i = 10000000;
-        long j = 10000000;
+        long i = 200;
+        long j = 400;
         long res3 = i * j;
 
         System.out.println("Multiplication = " + res3);

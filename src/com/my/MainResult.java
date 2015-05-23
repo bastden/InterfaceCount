@@ -21,6 +21,10 @@ public class MainResult {
 
         System.out.println();
 
+        intr = new ResultFromAll();
+        intr.count();
+
+        System.out.println();
     }
 
 }
