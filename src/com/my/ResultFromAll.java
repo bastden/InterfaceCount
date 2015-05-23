@@ -20,7 +20,7 @@ public class ResultFromAll implements Interlico {
         long l = mas[4] * mas[5];
 
          long l1 = i + f + l;
-
+        // Проверка результатов.
         //System.out.println("Sum of mas[0]+mas[1] = " + i);
         //System.out.println("Div of mas[2]/mas[3] = " +f);
         //System.out.println("Mul of mas[4]*mas[5] = " +l);
