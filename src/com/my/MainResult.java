@@ -2,29 +2,26 @@ package com.my;
 
 public class MainResult {
 
+        public double printCount  (Interlico inter, long a, long b) {
+            return inter.count(a, b);
+        }
+
     public static void main(String[] args) {
 
-        Interlico intr = new Addition();
-        intr.count();
+        MainResult result = new MainResult();
 
-        System.out.println();
+        double d;
 
+        Addition intr = new Addition (); // значение
+        d = result.printCount(intr, 5, 10);
 
-        intr = new Division();
-        intr.count();
+        Division division = new Division();
+        d = d+result.printCount(division, 10, 2);
 
-        System.out.println();
+        Multiplication multiplication = new Multiplication();
+        d = d + result.printCount(multiplication, 2, 5);
 
-
-        intr = new Multiplication();
-        intr.count();
-
-        System.out.println();
-
-        intr = new ResultFromAll();
-        intr.count();
-
-        System.out.println();
+        System.out.println(d);
     }
 
 }

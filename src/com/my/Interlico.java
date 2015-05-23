@@ -2,6 +2,6 @@ package com.my;
 
 public interface Interlico {
 
-   void count();
+   public double count(long a, long b);
 
 }

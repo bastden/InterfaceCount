@@ -4,12 +4,12 @@ public class Multiplication implements Interlico {
 
 
     @Override
-    public void count() {
-        long i = 200;
-        long j = 400;
-        long res3 = i * j;
+    public double count(long a, long b) {
 
-        System.out.println("Multiplication = " + res3);
+      double c = a*b;
+
+        System.out.println("Multiplication = " + c);
+        return c;
 
     }
 }

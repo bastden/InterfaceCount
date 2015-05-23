@@ -4,14 +4,14 @@ public class Division implements Interlico {
 
 
     @Override
-    public void count() {
+    public double count(long a, long b) {
 
-        double c = 5;
-        double d = 2;
-        double res2 = c / 2;
+        double c = a/b;
 
-        System.out.println("Division = " + res2);
+        System.out.println("Division = " + c);
+        return c;
     }
+
 
 }
 
