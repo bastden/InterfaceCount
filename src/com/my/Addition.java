@@ -7,7 +7,7 @@ public class Addition implements Interlico {
     public double count(long a, long b) {
 
         double c = a+b;
-        System.out.println("Addition = " + c);
+        System.out.println("Addition = " + a+b);
         return c;
     }
 
