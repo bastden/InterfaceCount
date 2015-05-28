@@ -2,9 +2,16 @@ package com.my;
 
 public class Multiplication implements Interlico {
 
+    long a;
+    long b;
 
+    public Multiplication(long a, long b) {
+        this.a = a;
+        this.b = b;
+
+    }
     @Override
-    public double count(long a, long b) {
+    public double count() {
 
       double c = a*b;
 
