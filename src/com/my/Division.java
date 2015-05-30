@@ -17,6 +17,7 @@ public class Division implements Interlico {
         double c = a/b;
 
         System.out.println("Division = " + c);
+        System.out.println("Division = " + c);
         return c;
     }
 
