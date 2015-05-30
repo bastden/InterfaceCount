@@ -1,32 +1,25 @@
 package com.my;
 
-public class MainResult extends Parent {
+public class MainResult {
 
-    public MainResult(String str) {
-//        super();
-        System.out.println(str);
-
-    }
-
-    public double printCount  (Interlico inter) {
-        return inter.count();
-    }
+        public double printCount  (Interlico inter, long a, long b) {
+            return inter.count(a, b);
+        }
 
     public static void main(String[] args) {
 
-        MainResult result = new MainResult("");
-        MainResult result2 = new MainResult("sdfsdf");
+        MainResult result = new MainResult();
 
         double d;
 
-        Addition intr = new Addition (5, 10); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-        d = result.printCount(intr);
+        Addition intr = new Addition (); // значение
+        d = result.printCount(intr, 5, 10);
 
-        Division division = new Division(10, 2);
-        d = d+result.printCount(division);
+        Division division = new Division();
+        d = d+result.printCount(division, 10, 2);
 
-        Multiplication multiplication = new Multiplication(2, 5);
-        d = d + result.printCount(multiplication);
+        Multiplication multiplication = new Multiplication();
+        d = d + result.printCount(multiplication, 2, 5);
 
         System.out.println(d);
     }

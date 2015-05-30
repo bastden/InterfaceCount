@@ -2,17 +2,9 @@ package com.my;
 
 public class Division implements Interlico {
 
-    long a;
-
-    long b;
-
-    public Division(long a, long b) {
-        this.a = a;
-        this.b = b;
-    }
 
     @Override
-    public double count() {
+    public double count(long a, long b) {
 
         double c = a/b;
 
