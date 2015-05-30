@@ -2,33 +2,29 @@ package com.my;
 
 public class MainResult extends Parent {
 
-    public MainResult(String str) {
-//        super();
-        System.out.println(str);
+    public static String str = "hello";
 
+    public final String nonStatic = "world";
+
+
+    public void print() {
+        System.out.println(str + "принт даже ява");
+        System.out.println("4444");
     }
 
-    public double printCount  (Interlico inter) {
-        return inter.count();
+    public MainResult() {
+
+    }
+    public MainResult(String str) {
+
     }
 
     public static void main(String[] args) {
 
-        MainResult result = new MainResult("");
-        MainResult result2 = new MainResult("sdfsdf");
+        MainResult mr = new MainResult("");
+        System.out.println(StringUtils.stringLength("a"));
+        System.out.println(StringUtils.stringLength("aa"));
 
-        double d;
-
-        Addition intr = new Addition (5, 10); // ��������
-        d = result.printCount(intr);
-
-        Division division = new Division(10, 2);
-        d = d+result.printCount(division);
-
-        Multiplication multiplication = new Multiplication(2, 5);
-        d = d + result.printCount(multiplication);
-
-        System.out.println(d);
     }
 
 }
