@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfc9bec9-26b8-482c-a9a8-6007492cb1d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/my/StringUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/my/WithFinal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InterfaceCount/com/my/MainResult.class" afterPath="$PROJECT_DIR$/out/production/InterfaceCount/com/my/MainResult.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InterfaceCount/com/my/Parent.class" afterPath="$PROJECT_DIR$/out/production/InterfaceCount/com/my/Parent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/my/MainResult.java" afterPath="$PROJECT_DIR$/src/com/my/MainResult.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="InterfaceCount.iws" />
@@ -499,6 +496,13 @@
       <option name="number" value="Default" />
       <updated>1432471571591</updated>
     </task>
+    <task id="LOCAL-00001" summary="merge me">
+      <created>1433018303247</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1433018303247</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -549,6 +553,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="merge me" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge me" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
