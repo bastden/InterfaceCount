@@ -7,9 +7,9 @@ public class Person {
         this.name = name;
     }
 
-    int age;
+    public int age;
 
-    String name;
+    public String name;
 
     Child kid;
 
